@@ -1,0 +1,85 @@
+
+/* section title */
+.section-title h2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    width: 39px;
+    height: 3px;
+    background: #14ADF3;
+    left: 0;
+    bottom: -50%;
+}
+
+.section-title p {
+    color: #848484;
+    margin-top: 33px;
+    font-weight: 300;
+    font-size: 14.5px;
+}
+
+
+/* carousel article */
+.carousel-article {
+    margin-top: 70px;
+}
+
+.team-info h4 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.team-info h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+.team-info p {
+    font-weight: 400;
+    color: #717171;
+    font-size: 15px;
+}
+
+
+
+/* owl carousel nav */
+
+.owl-left-array {
+    position: absolute;
+    top: -25%;
+    right: 5%;
+    padding: 9px;
+    padding: 10px 15px;
+}
+
+.owl-right-array:hover,
+.owl-left-array:hover{
+    background: #14ADF3;
+    color: #fff;
+}
+.owl-right-array {
+    position: absolute;
+    top: -25%;
+    right: 0;
+    padding: 10px 15px;
+}
+
+
+.carousel-section {
+    position: relative;
+}
+
+.team-box img {
+    width: 75% !important;
+    border-radius: 100%;
+}
